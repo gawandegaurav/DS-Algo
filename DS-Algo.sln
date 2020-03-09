@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS-Algo", "DS-Algo\DS-Algo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{77C8A3C4-F00E-472E-AA8D-83847A85E2C3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Structures", "Data Structures", "{2FB8B1CE-1693-4841-B899-E5052CF4C75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{5C4E91ED-7292-43EA-BFE8-F4CC73D3CD7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{77C8A3C4-F00E-472E-AA8D-83847A85E2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77C8A3C4-F00E-472E-AA8D-83847A85E2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77C8A3C4-F00E-472E-AA8D-83847A85E2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4E91ED-7292-43EA-BFE8-F4CC73D3CD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4E91ED-7292-43EA-BFE8-F4CC73D3CD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4E91ED-7292-43EA-BFE8-F4CC73D3CD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4E91ED-7292-43EA-BFE8-F4CC73D3CD7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C4E91ED-7292-43EA-BFE8-F4CC73D3CD7C} = {2FB8B1CE-1693-4841-B899-E5052CF4C75A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B16C7DF-FBB2-487C-BCA5-8F05B176F62A}
