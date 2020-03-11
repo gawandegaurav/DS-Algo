@@ -17,7 +17,15 @@ namespace LinkedList
         public void InsertAtBeginning(T data)
         {
             var newNode = new LinkedListNode<T>(data);
-            _head.NextNode = newNode;
+            if (_head == null)
+            {
+                _head = newNode;
+            }
+            else
+            {
+                newNode.NextNode = _head;
+                _head = newNode;
+            }
         }
 
         public void InsertAtEnd(T data)
@@ -25,7 +33,7 @@ namespace LinkedList
             var newNode = new LinkedListNode<T>(data);
             if (_head == null)
             {
-                _head.NextNode = newNode;
+                _head = newNode;
             }
             else
             {
@@ -43,12 +51,14 @@ namespace LinkedList
         {
             if (previousNode == null) { return; }
 
-            var nextNode = new LinkedListNode<T>(data);
-            nextNode.NextNode = previousNode.NextNode;
+            var nextNode = new LinkedListNode<T>(data)
+            {
+                NextNode = previousNode.NextNode
+            };
             previousNode.NextNode = nextNode;
         }
 
-        public void InsertAtPosition(int position, T data)
+        public void InsertAfterPosition(int position, T data)
         {
             if (_head == null)
             {
@@ -69,8 +79,10 @@ namespace LinkedList
                     i++;
                     node = node.NextNode;
                 }
-                var newNode = new LinkedListNode<T>(data);
-                newNode.NextNode = node.NextNode;
+                var newNode = new LinkedListNode<T>(data)
+                {
+                    NextNode = node.NextNode
+                };
 
                 node.NextNode = newNode;
             }
@@ -87,7 +99,7 @@ namespace LinkedList
             return node;
         }
 
-        public LinkedListNode<T> RemoveFromEnd()
+        public LinkedListNode<T> DeleteFromEnd()
         {
             if (_head == null) return null;
             var node = _head;
@@ -109,7 +121,7 @@ namespace LinkedList
             _head = null;
         }
 
-        public LinkedListNode<T> RemoveFromPosition(int position)
+        public LinkedListNode<T> DeleteFromPosition(int position)
         {
             if (_head == null) return null;
 
@@ -159,7 +171,7 @@ namespace LinkedList
         public IEnumerator<T> GetEnumerator()
         {
             var node = _head;
-            while (node.NextNode != null)
+            while (node != null)
             {
                 yield return node.Data;
                 node = node.NextNode;
