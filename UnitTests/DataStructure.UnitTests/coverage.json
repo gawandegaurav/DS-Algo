@@ -1,0 +1,567 @@
+{
+  "LinkedList.dll": {
+    "C:\\Users\\gawangau\\source\\GIT repo\\DS-Algo\\DataStructures\\LinkedList\\LinkedlistNode.cs": {
+      "LinkedList.LinkedListNode`1": {
+        "T LinkedList.LinkedListNode`1::get_Data()": {
+          "Lines": {
+            "5": 85
+          },
+          "Branches": []
+        },
+        "LinkedList.LinkedListNode`1<T> LinkedList.LinkedListNode`1::get_NextNode()": {
+          "Lines": {
+            "7": 249
+          },
+          "Branches": []
+        },
+        "System.Void LinkedList.LinkedListNode`1::.ctor(T)": {
+          "Lines": {
+            "9": 48,
+            "10": 48,
+            "11": 48,
+            "12": 48,
+            "13": 48
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\gawangau\\source\\GIT repo\\DS-Algo\\DataStructures\\LinkedList\\Program.cs": {
+      "LinkedList.Program": {
+        "System.Void LinkedList.Program::Main(System.String[])": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\gawangau\\source\\GIT repo\\DS-Algo\\DataStructures\\LinkedList\\SinglyLinkedList.cs": {
+      "LinkedList.SinglyLinkedList`1": {
+        "System.Void LinkedList.SinglyLinkedList`1::InsertAtBeginning(T)": {
+          "Lines": {
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "25": 5,
+            "26": 5,
+            "27": 5,
+            "28": 5,
+            "29": 8
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 20,
+              "Offset": 19,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void LinkedList.SinglyLinkedList`1::InsertAtEnd(T)": {
+          "Lines": {
+            "32": 38,
+            "33": 38,
+            "34": 38,
+            "35": 9,
+            "36": 9,
+            "37": 9,
+            "39": 29,
+            "40": 29,
+            "41": 69,
+            "42": 40,
+            "43": 40,
+            "44": 40,
+            "46": 29,
+            "47": 29,
+            "48": 38
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 9
+            },
+            {
+              "Line": 34,
+              "Offset": 19,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 29
+            },
+            {
+              "Line": 41,
+              "Offset": 62,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 40
+            },
+            {
+              "Line": 41,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 29
+            }
+          ]
+        },
+        "System.Void LinkedList.SinglyLinkedList`1::InsertAfterPosition(System.Int32,T)": {
+          "Lines": {
+            "51": 3,
+            "52": 3,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "58": 2,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "63": 1,
+            "64": 1,
+            "65": 1,
+            "67": 2,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "77": 1,
+            "78": 1,
+            "79": 3
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 12,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 58,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 58,
+              "Offset": 35,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 82,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            }
+          ]
+        },
+        "LinkedList.LinkedListNode`1<T> LinkedList.SinglyLinkedList`1::DeleteAtBeginning()": {
+          "Lines": {
+            "82": 2,
+            "83": 4,
+            "85": 1,
+            "86": 1,
+            "88": 1,
+            "89": 1,
+            "90": 2
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 83,
+              "Offset": 12,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "LinkedList.LinkedListNode`1<T> LinkedList.SinglyLinkedList`1::DeleteFromEnd()": {
+          "Lines": {
+            "93": 1,
+            "94": 0,
+            "95": 1,
+            "96": 1,
+            "98": 5,
+            "99": 4,
+            "100": 4,
+            "101": 4,
+            "102": 4,
+            "104": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1
+          },
+          "Branches": [
+            {
+              "Line": 94,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 94,
+              "Offset": 12,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 98,
+              "Offset": 53,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 98,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void LinkedList.SinglyLinkedList`1::DeleteAll()": {
+          "Lines": {
+            "110": 1,
+            "111": 1,
+            "112": 1
+          },
+          "Branches": []
+        },
+        "LinkedList.LinkedListNode`1<T> LinkedList.SinglyLinkedList`1::DeleteFromPosition(System.Int32)": {
+          "Lines": {
+            "115": 3,
+            "116": 4,
+            "118": 3,
+            "119": 2,
+            "120": 1,
+            "121": 1,
+            "122": 1,
+            "125": 1,
+            "126": 1,
+            "127": 1,
+            "129": 2,
+            "130": 1,
+            "131": 1,
+            "132": 1,
+            "133": 1,
+            "134": 1,
+            "136": 1,
+            "137": 1,
+            "138": 1,
+            "139": 3
+          },
+          "Branches": [
+            {
+              "Line": 116,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 116,
+              "Offset": 12,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 118,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 118,
+              "Offset": 27,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 119,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 119,
+              "Offset": 40,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 129,
+              "Offset": 106,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 129,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean LinkedList.SinglyLinkedList`1::Contains(T)": {
+          "Lines": {
+            "142": 2,
+            "143": 2,
+            "144": 4,
+            "145": 3,
+            "146": 3,
+            "147": 1,
+            "148": 1,
+            "150": 2,
+            "151": 2,
+            "153": 1,
+            "154": 2
+          },
+          "Branches": [
+            {
+              "Line": 144,
+              "Offset": 62,
+              "EndOffset": 10,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 146,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 146,
+              "Offset": 39,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 144,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.String LinkedList.SinglyLinkedList`1::ToString()": {
+          "Lines": {
+            "157": 14,
+            "158": 17,
+            "159": 11,
+            "160": 101,
+            "161": 34,
+            "162": 34,
+            "163": 23,
+            "164": 34,
+            "165": 34,
+            "167": 11,
+            "168": 14
+          },
+          "Branches": [
+            {
+              "Line": 158,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 158,
+              "Offset": 12,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            },
+            {
+              "Line": 160,
+              "Offset": 95,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 34
+            },
+            {
+              "Line": 162,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 23
+            },
+            {
+              "Line": 162,
+              "Offset": 60,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 34
+            },
+            {
+              "Line": 160,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 11
+            }
+          ]
+        },
+        "System.Collections.IEnumerator LinkedList.SinglyLinkedList`1::System.Collections.IEnumerable.GetEnumerator()": {
+          "Lines": {
+            "171": 0,
+            "172": 0,
+            "173": 0
+          },
+          "Branches": []
+        },
+        "System.Void LinkedList.SinglyLinkedList`1::.ctor()": {
+          "Lines": {
+            "12": 16,
+            "13": 16,
+            "14": 16,
+            "15": 16
+          },
+          "Branches": []
+        }
+      },
+      "LinkedList.SinglyLinkedList`1/<GetEnumerator>d__12": {
+        "System.Boolean LinkedList.SinglyLinkedList`1/<GetEnumerator>d__12::MoveNext()": {
+          "Lines": {
+            "176": 11,
+            "177": 11,
+            "178": 45,
+            "179": 34,
+            "180": 34,
+            "181": 34,
+            "182": 34,
+            "183": 11
+          },
+          "Branches": [
+            {
+              "Line": 176,
+              "Offset": 14,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 178,
+              "Offset": 114,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 34
+            },
+            {
+              "Line": 176,
+              "Offset": 14,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 34
+            },
+            {
+              "Line": 178,
+              "Offset": 114,
+              "EndOffset": 116,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 11
+            }
+          ]
+        }
+      }
+    }
+  }
+}

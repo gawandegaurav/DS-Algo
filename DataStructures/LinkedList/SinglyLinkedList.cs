@@ -47,17 +47,6 @@ namespace LinkedList
             }
         }
 
-        public void InsertAfterNode(LinkedListNode<T> previousNode, T data)
-        {
-            if (previousNode == null) { return; }
-
-            var nextNode = new LinkedListNode<T>(data)
-            {
-                NextNode = previousNode.NextNode
-            };
-            previousNode.NextNode = nextNode;
-        }
-
         public void InsertAfterPosition(int position, T data)
         {
             if (_head == null)
@@ -65,7 +54,8 @@ namespace LinkedList
                 _head = new LinkedListNode<T>(data);
                 return;
             }
-            else if (position < 0)
+
+            if (position < 0)
             {
                 InsertAtBeginning(data);
             }
@@ -129,11 +119,10 @@ namespace LinkedList
             if (position == 0)
             {
                 _head = _head.NextNode;
-                _head.NextNode = null;
                 return _head;
             }
 
-            int count = 1;
+            var count = 1;
             var node = _head;
             var previousNode = node;
 
@@ -147,6 +136,21 @@ namespace LinkedList
             previousNode.NextNode = node.NextNode;
             node.NextNode = null;
             return node;
+        }
+
+        public bool Contains(T data)
+        {
+            var node = _head;
+            while (node != null)
+            {
+                if (node.Data.Equals(data))
+                {
+                    return true;
+                }
+                node = node.NextNode;
+            }
+
+            return false;
         }
 
         public override string ToString()
