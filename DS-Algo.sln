@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion", "Algorithms\Rec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.UnitTests", "UnitTests\DataStructure.UnitTests\DataStructures.UnitTests.csproj", "{940498F9-1F08-40F1-B5B5-1D4CDAB8B482}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "DataStructures\Queue\Queue\Queue.csproj", "{C38EE2D0-C9DF-4718-89FD-E2156C67DF7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{940498F9-1F08-40F1-B5B5-1D4CDAB8B482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940498F9-1F08-40F1-B5B5-1D4CDAB8B482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940498F9-1F08-40F1-B5B5-1D4CDAB8B482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38EE2D0-C9DF-4718-89FD-E2156C67DF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38EE2D0-C9DF-4718-89FD-E2156C67DF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38EE2D0-C9DF-4718-89FD-E2156C67DF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38EE2D0-C9DF-4718-89FD-E2156C67DF7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{0D895FEF-5DD4-43F3-BB72-49764D86172F} = {2FB8B1CE-1693-4841-B899-E5052CF4C75A}
 		{19749D97-862E-4D11-9E28-B136F735AC42} = {D68CBB96-7F12-4F50-BD1A-3C7C1BCBF8B8}
 		{940498F9-1F08-40F1-B5B5-1D4CDAB8B482} = {CA81FC02-0E29-4A97-A1E4-4568CCEDEF42}
+		{C38EE2D0-C9DF-4718-89FD-E2156C67DF7A} = {2FB8B1CE-1693-4841-B899-E5052CF4C75A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B16C7DF-FBB2-487C-BCA5-8F05B176F62A}

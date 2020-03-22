@@ -4,23 +4,23 @@
       "LinkedList.LinkedListNode`1": {
         "T LinkedList.LinkedListNode`1::get_Data()": {
           "Lines": {
-            "5": 85
+            "5": 110
           },
           "Branches": []
         },
         "LinkedList.LinkedListNode`1<T> LinkedList.LinkedListNode`1::get_NextNode()": {
           "Lines": {
-            "7": 249
+            "7": 293
           },
           "Branches": []
         },
         "System.Void LinkedList.LinkedListNode`1::.ctor(T)": {
           "Lines": {
-            "9": 48,
-            "10": 48,
-            "11": 48,
-            "12": 48,
-            "13": 48
+            "9": 63,
+            "10": 63,
+            "11": 63,
+            "12": 63,
+            "13": 63
           },
           "Branches": []
         }
@@ -560,6 +560,672 @@
               "Hits": 11
             }
           ]
+        }
+      }
+    }
+  },
+  "Queue.dll": {
+    "C:\\Users\\gawangau\\source\\GIT repo\\DS-Algo\\DataStructures\\Queue\\Queue\\FixedSizeArrayQueue.cs": {
+      "Queue.FixedSizeArrayQueue`1": {
+        "System.Int32 Queue.FixedSizeArrayQueue`1::get_Size()": {
+          "Lines": {
+            "10": 25
+          },
+          "Branches": []
+        },
+        "System.Int32 Queue.FixedSizeArrayQueue`1::get_Length()": {
+          "Lines": {
+            "12": 13
+          },
+          "Branches": []
+        },
+        "System.Boolean Queue.FixedSizeArrayQueue`1::IsEmpty()": {
+          "Lines": {
+            "22": 18,
+            "23": 18,
+            "24": 18
+          },
+          "Branches": []
+        },
+        "System.Boolean Queue.FixedSizeArrayQueue`1::IsFull()": {
+          "Lines": {
+            "27": 24,
+            "28": 24,
+            "29": 24
+          },
+          "Branches": []
+        },
+        "System.Void Queue.FixedSizeArrayQueue`1::Enqueue(T)": {
+          "Lines": {
+            "32": 24,
+            "33": 24,
+            "34": 1,
+            "35": 1,
+            "38": 30,
+            "40": 23,
+            "41": 23,
+            "42": 23
+          },
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 33,
+              "Offset": 9,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 23
+            },
+            {
+              "Line": 38,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 7
+            },
+            {
+              "Line": 38,
+              "Offset": 34,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 23
+            }
+          ]
+        },
+        "T Queue.FixedSizeArrayQueue`1::Dequeue()": {
+          "Lines": {
+            "45": 2,
+            "46": 2,
+            "47": 1,
+            "48": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "55": 1,
+            "56": 1
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 9,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "T Queue.FixedSizeArrayQueue`1::Peek()": {
+          "Lines": {
+            "59": 1,
+            "60": 1,
+            "61": 0,
+            "62": 0,
+            "65": 1,
+            "66": 1
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 9,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Queue.FixedSizeArrayQueue`1::Clear()": {
+          "Lines": {
+            "69": 1,
+            "70": 8,
+            "71": 3,
+            "72": 3,
+            "73": 3,
+            "74": 1,
+            "75": 1,
+            "76": 1
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 43,
+              "EndOffset": 5,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 70,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean Queue.FixedSizeArrayQueue`1::Contains(T)": {
+          "Lines": {
+            "79": 2,
+            "80": 0,
+            "82": 14,
+            "83": 6,
+            "84": 6,
+            "85": 1,
+            "86": 1,
+            "88": 5,
+            "90": 1,
+            "91": 2
+          },
+          "Branches": [
+            {
+              "Line": 80,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 9,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 82,
+              "Offset": 78,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 6
+            },
+            {
+              "Line": 84,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 84,
+              "Offset": 53,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 82,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Int32 Queue.FixedSizeArrayQueue`1::GetLength()": {
+          "Lines": {
+            "94": 13,
+            "95": 14,
+            "96": 12,
+            "97": 13
+          },
+          "Branches": [
+            {
+              "Line": 95,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 95,
+              "Offset": 9,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 12
+            }
+          ]
+        },
+        "System.Void Queue.FixedSizeArrayQueue`1::.ctor(System.Int32)": {
+          "Lines": {
+            "14": 9,
+            "15": 9,
+            "16": 9,
+            "17": 9,
+            "18": 9,
+            "19": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\gawangau\\source\\GIT repo\\DS-Algo\\DataStructures\\Queue\\Queue\\LinkedListQueue.cs": {
+      "Queue.LinkedListQueue`1": {
+        "System.Int32 Queue.LinkedListQueue`1::get_Length()": {
+          "Lines": {
+            "13": 3
+          },
+          "Branches": []
+        },
+        "System.Void Queue.LinkedListQueue`1::Clear()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "T Queue.LinkedListQueue`1::Peek()": {
+          "Lines": {
+            "28": 1,
+            "29": 1,
+            "30": 0,
+            "31": 0,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 9,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean Queue.LinkedListQueue`1::Contains(T)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 12,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 80,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 57,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 57,
+              "EndOffset": 64,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 80,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "T Queue.LinkedListQueue`1::Dequeue()": {
+          "Lines": {
+            "55": 2,
+            "56": 2,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 56,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Queue.LinkedListQueue`1::Enqueue(T)": {
+          "Lines": {
+            "64": 15,
+            "65": 15,
+            "67": 15,
+            "68": 4,
+            "69": 4,
+            "70": 4,
+            "71": 4,
+            "74": 11,
+            "75": 11,
+            "76": 15
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 67,
+              "Offset": 16,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            }
+          ]
+        },
+        "System.Boolean Queue.LinkedListQueue`1::IsEmpty()": {
+          "Lines": {
+            "79": 21,
+            "80": 21,
+            "81": 21
+          },
+          "Branches": []
+        },
+        "System.Boolean Queue.LinkedListQueue`1::IsFull()": {
+          "Lines": {
+            "84": 0,
+            "85": 0
+          },
+          "Branches": []
+        },
+        "System.String Queue.LinkedListQueue`1::ToString()": {
+          "Lines": {
+            "89": 2,
+            "90": 0,
+            "91": 2,
+            "92": 22,
+            "93": 8,
+            "94": 8,
+            "95": 6,
+            "96": 8,
+            "97": 8,
+            "99": 2,
+            "100": 2
+          },
+          "Branches": [
+            {
+              "Line": 90,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 12,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 92,
+              "Offset": 100,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 8
+            },
+            {
+              "Line": 94,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 6
+            },
+            {
+              "Line": 94,
+              "Offset": 65,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 8
+            },
+            {
+              "Line": 92,
+              "Offset": 100,
+              "EndOffset": 102,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Int32 Queue.LinkedListQueue`1::GetLength()": {
+          "Lines": {
+            "113": 3,
+            "114": 0,
+            "115": 3,
+            "116": 3,
+            "117": 12,
+            "118": 9,
+            "119": 9,
+            "120": 9,
+            "121": 9,
+            "123": 3,
+            "124": 3
+          },
+          "Branches": [
+            {
+              "Line": 114,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 9,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 117,
+              "Offset": 47,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 9
+            },
+            {
+              "Line": 117,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Queue.LinkedListQueue`1::.ctor()": {
+          "Lines": {
+            "15": 5,
+            "16": 5,
+            "17": 5,
+            "18": 5,
+            "19": 5
+          },
+          "Branches": []
+        }
+      },
+      "Queue.LinkedListQueue`1/<GetEnumerator>d__13": {
+        "System.Boolean Queue.LinkedListQueue`1/<GetEnumerator>d__13::MoveNext()": {
+          "Lines": {
+            "103": 2,
+            "104": 2,
+            "105": 10,
+            "106": 8,
+            "107": 8,
+            "108": 8,
+            "109": 8,
+            "110": 2
+          },
+          "Branches": [
+            {
+              "Line": 103,
+              "Offset": 14,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 119,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 8
+            },
+            {
+              "Line": 103,
+              "Offset": 14,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 105,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\gawangau\\source\\GIT repo\\DS-Algo\\DataStructures\\Queue\\Queue\\Program.cs": {
+      "Queue.Program": {
+        "System.Void Queue.Program::Main()": {
+          "Lines": {
+            "10": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\gawangau\\source\\GIT repo\\DS-Algo\\DataStructures\\Queue\\Queue\\Exceptions\\QueueOverflowException.cs": {
+      "Queue.Exceptions.QueueOverflowException": {
+        "System.Void Queue.Exceptions.QueueOverflowException::.ctor(System.String)": {
+          "Lines": {
+            "7": 1,
+            "8": 1,
+            "10": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\gawangau\\source\\GIT repo\\DS-Algo\\DataStructures\\Queue\\Queue\\Exceptions\\QueueUnderflowException.cs": {
+      "Queue.Exceptions.QueueUnderflowException": {
+        "System.Void Queue.Exceptions.QueueUnderflowException::.ctor(System.String)": {
+          "Lines": {
+            "7": 2,
+            "8": 2,
+            "10": 2
+          },
+          "Branches": []
         }
       }
     }
